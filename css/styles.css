@@ -386,7 +386,7 @@ html {
 body {
   font-family: "poppins", sans-serif;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 2.4rem;
   color: #000;
   -webkit-font-smoothing: antialiased;
@@ -449,14 +449,20 @@ h1, .h1, h2, .h2, h4, .h4 {
 }
 
 .site-header .utility-nav {
-  font-weight: 300;
-  font-size: 1.1rem;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.04em;
+  color: #1e1e1e;
 }
 
 .site-header img {
   width: 30px;
   margin-left: 15px;
+}
+.site-header .id-row p
+{
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .site-header .utility-nav li {
@@ -490,16 +496,19 @@ h1, .h1, h2, .h2, h4, .h4 {
 .id-row a {
   color: rgba(0,0,0,.55);
   text-decoration: none;
-  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -20px;
 }
 
 .id-row .utility-nav a {
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  padding-right: 15px;
+  color: #1e1e1e;
 }
-
 .id-row .utility-nav a:hover {
-  color: rgba(0,0,0,0.80);
+  color: rgba(0,0,0,0.50);
 }
 
 .site-logo-link {
